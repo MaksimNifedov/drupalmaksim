@@ -1,0 +1,14 @@
+name: 'Webform Trello'
+type: module
+description: 'A webform handler to create a ticket in trello board.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Webform'
+dependencies:
+  - drupal:webform
+  - drupal:token
+
+# Information added by Drupal.org packaging script on 2022-03-15
+version: '1.0.0'
+project: 'webform_trello'
+datestamp: 1647334279

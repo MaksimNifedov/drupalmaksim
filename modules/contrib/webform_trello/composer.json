@@ -1,0 +1,18 @@
+{
+    "name": "drupal/webform_trello",
+    "description": "A webform handler to create a ticket in trello board.",
+    "keywords": [
+		"Drupal", "Trello", "Webform Trello"
+	],
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.drupal.org/project/webform_trello",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/webform_trello",
+        "source": "https://git.drupalcode.org/project/webform_trello"
+    },
+    "require": {
+        "drupal/webform": "^6.1",
+        "drupal/token": "^1.10"
+    }
+}

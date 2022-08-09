@@ -1,0 +1,7 @@
+webform_trello.config.trello:
+  path: '/admin/structure/webform/config/handlers/trello'
+  defaults:
+    _form: '\Drupal\webform_trello\Form\AdminConfig\WebformAdminConfigTrelloForm'
+    _title: 'Webforms: Webform handler configuration'
+  requirements:
+    _permission: 'administer webform'

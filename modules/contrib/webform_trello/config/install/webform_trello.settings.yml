@@ -1,0 +1,7 @@
+ticket:
+  name: 'From [site:name] - [webform_submission:values:subject]'
+  description: |
+    Submitted on [webform_submission:created]
+    Submitted by: [webform_submission:user]
+    Submitted values are:
+    [webform_submission:values]

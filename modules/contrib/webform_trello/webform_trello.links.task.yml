@@ -1,0 +1,5 @@
+webform_trello.config.trello:
+  title: 'Trello'
+  route_name: webform_trello.config.trello
+  parent_id: webform.config
+  weight: 60

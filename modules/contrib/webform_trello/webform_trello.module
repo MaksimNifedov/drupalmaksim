@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains webform_trello.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function webform_trello_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the webform_trello module.
+    case 'help.page.webform_trello':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A webform handler to create a ticket in trello board.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function webform_trello_theme() {
+  return [
+    'webform_handler_trello_summary' => [
+      'variables' => ['settings' => NULL, 'handler' => []],
+    ],
+  ];
+}

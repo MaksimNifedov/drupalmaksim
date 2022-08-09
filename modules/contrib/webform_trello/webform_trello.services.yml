@@ -1,0 +1,7 @@
+services:
+  logger.channel.webform_trello:
+    parent: logger.channel_base
+    arguments: ['webform_trello']
+  webform_trello.api:
+    class: Drupal\webform_trello\TrelloApiService
+    arguments: ['@http_client', '@config.factory', '@logger.factory']

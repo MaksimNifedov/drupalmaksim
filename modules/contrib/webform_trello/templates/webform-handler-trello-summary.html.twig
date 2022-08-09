@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a summary of a webform trello handler.
+ *
+ * Available variables:
+ * - settings: The current configuration for this remote post handler.
+ * - handler: The remote post handler.
+ *
+ * @ingroup themeable
+ */
+#}
+{% if settings.debug %}<strong class="color-error">{{ 'Debugging is enabled'|t }}</strong><br />{% endif %}
+<strong>{{ 'Board:'|t }}</strong> {{ settings.boardLabel }}<br />
+<strong>{{ 'Board Id:'|t }}</strong> {{ settings.board }}<br />
+<strong>{{ 'List:'|t }}</strong> {{ settings.listLabel }}<br />
+<strong>{{ 'List Id:'|t }}</strong> {{ settings.list }}<br />
